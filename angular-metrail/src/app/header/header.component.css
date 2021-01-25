@@ -1,0 +1,16 @@
+.divRight{
+  width: 100%;
+  float: left;
+
+}
+.divRight a{
+  text-decoration: none;
+  color: wheat;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+ul li{
+  display: inline-block;
+  padding: 2%;
+  font-size: 17px;
+}

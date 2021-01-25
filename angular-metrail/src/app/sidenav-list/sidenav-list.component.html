@@ -1,0 +1,10 @@
+ <mat-nav-list>
+    <a  *ngFor="let item of mysourse" mat-list-item routerLink="news/{{item.id}}" (click)="closenav(item.id)">
+      <mat-icon>book</mat-icon>
+      <span>{{item.name}}</span>
+
+    </a>
+
+  </mat-nav-list>
+
+

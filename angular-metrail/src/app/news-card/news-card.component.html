@@ -1,0 +1,29 @@
+<div *ngFor="let item of news">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>
+        {{item.title}}
+      </mat-card-title>
+      <mat-card-subtitle>
+        {{item.author}}
+      </mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{item.urlToImage}}">
+    <mat-card-content>
+      <p>
+        {{item.description}}
+      </p>
+      <p>
+        {{item.content}}
+      </p>
+    </mat-card-content>
+    <mat-card-footer>
+      <mat-card-content>
+        <p>
+          {{item.publishedAt}}
+        </p>
+      </mat-card-content>
+    </mat-card-footer>
+  </mat-card>
+
+</div>

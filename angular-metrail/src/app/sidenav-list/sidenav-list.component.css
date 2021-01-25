@@ -1,0 +1,17 @@
+a:hover,a:active{
+ color: rgb(240, 54, 22);
+  transition: all .5s ease-in-out;
+}
+a span{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+mat-list-item
+{
+  color: aqua;
+}
+mat-icon{
+  color: rgb(165, 165, 189);
+  padding: 10px;
+}
